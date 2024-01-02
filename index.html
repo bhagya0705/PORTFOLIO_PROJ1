@@ -1,13 +1,138 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet"href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-<body>
-   <h1> Today is Tuesday</h1>
-   <h1 > How are you ?</h1>
+<body>								
+  <script src="first.js"></script>		
+  <script src="https://www.amcharts.com/lib/3/amcharts.js"></script>
+<script src="https://www.amcharts.com/lib/3/pie.js"></script>
+<script src="https://www.amcharts.com/lib/3/plugins/export/export.min.js"></script>
+<link rel="stylesheet" href="https://www.amcharts.com/lib/3/plugins/export/export.css" type="text/css" media="all" />
+<script src="https://www.amcharts.com/lib/3/themes/dark.js"></script>
+<div id="navbar">
+  <a href="#Home">Home</a>
+  <a href="#About Me">About</a>
+  <a href="#Projects">My Projects</a>
+  <a href="#Contact">Contact Me</a>
+</div>
+<div id="image">
+</div>
+<div id="intro">
+  Hi <span class="elements" style="color:rgb(197, 13, 74)">There</span>
+  <br>
+   I'm <span class="elements" style="color:rgb(197, 13, 74)">Bhagya Dhingra</span>
+  <br>
+   I'm learning <span class="elements" style="color:rgb(197,13,74)">Web Development</span></p>.
+</div>
+<div class="skills">My Skills
+  <div class="skill">
+    <div class="skill-name">HTML</div>
+    <div class="skill-bar">
+      <div class="skill-per" per="100%" style="max-width:100%"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <div class="skill-name">CSS</div>
+    <div class="skill-bar">
+      <div class="skill-per" per="80%" style="max-width:80%"></div>
+    </div>
+  </div>
+
+  <div class="skill">
+    <div class="skill-name">Javascript</div>
+    <div class="skill-bar">
+      <div class="skill-per" per="60%" style="max-width:60%"></div>
+    </div>
+  </div>
+
+</div>
+<header>About Me</header>
+<p id="two">
+  <pre><i>
+    My name is Bhagya Dhingra and I'm pursuing B.Tech in
+    Computer Science & Engineering(CSE) from LNMIIT
+    Jaipur. I scored 98.12 percentile in JEE Mains 2023 and 
+    secured AIR 12307 in JEE Advanced 2023. I got 94.2 
+    percentage in CBSE Senior Secondary Examination. I am
+    from Jaipur,Rajasthan. My interests include playing sports
+    like Badminton, Cricket, Table Tennis. I'm learning
+    enthusiast and currently learning Web-Development.
+    
+  </i></pre>
+</p>
+<h2>My Projects</h2>
+<section class="container">
+  <section class="card__container">
+    <div class="card__bx" style="--clr: #89ec5b">
+      <div class="card__data">
+        <div class="card__icon">
+          <i class="fa-solid fa-paintbrush"></i>
+        </div>
+        <div class="card__content">
+          <h3>Designing</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="card__bx" style="--clr: #eb5ae5">
+      <div class="card__data">
+        <div class="card__icon">
+          <i class="fa-solid fa-code"></i>
+        </div>
+        <div class="card__content">
+          <h3>Development</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+    <div class="card__bx" style="--clr: #5b98eb">
+      <div class="card__data">
+        <div class="card__icon">
+          <i class="fa-brands fa-searchengin"></i>
+        </div>
+        <div class="card__content">
+          <h3>Inspecting</h3>
+          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+          <a href="#">Read More</a>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+</section>
+<h1>Contact Me</h1>
+<div id="user">
+  <form>
+    <input type="text" id="name"  placeholder="First Name">
+    <input type="text" id="surname"  placeholder="Last Name">
+  </form>
+</div>
+<div id="details">
+  <form>
+    <input type="text" id="Mail"  placeholder="Mail Address">
+    <input type="text" id="Subject"  placeholder="Subject">
+    <input type="text" id="Message"  placeholder="Message">
+  </form>
+</div>
+<button>Send Message</button>
+<h1 id="Heading">Port<span style="color:rgb(197,13,74)">folio</span></h1>
+<footer>Made with love:</footer>
+<i class="fa-solid fa-phone"> :7849965012</i>
+<i class="fa-regular fa-envelope"> :</i>
+<i class="fa-solid fa-location-dot"> :</i>
+<i class="fa-brands fa-instagram"> :</i>
+<i class="fa-solid fa-heart"></i>
+<h2 id="email">edak.bhagya@gmail.com</h2>
+<h2 id="instaid">dhingrabhagya</h2>
+<h2 id="address">LNMIIT Jaipur</h2>
 </body>
+</html>
